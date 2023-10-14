@@ -1,0 +1,44 @@
+Creating a MongoDB Cloud Account:
+
+Visit the MongoDB Cloud website at https://www.mongodb.com/cloud.
+Click the "Get started free" or "Sign up" button to create a new account.
+Follow the registration steps provided, including filling in account information, choosing a free plan, and verifying your email.
+Once registration is complete, you will have access to the MongoDB Cloud dashboard.
+Creating a Cluster and Database in MongoDB Cloud:
+
+Log in to the MongoDB Cloud dashboard using the account you registered.
+On the dashboard, click the "Create a New Cluster" or "Build a New Cluster" button to create a new cluster.
+Select a cloud provider, region, and other configurations as needed. You can use the default settings if you're not sure.
+Wait for the cluster creation process to complete. This may take a few minutes.
+After the cluster is created, select that cluster from the list of clusters on the dashboard.
+In the left-side navigation panel, click "Database Access" to create a database user.
+Click the "Add New Database User" button and follow the instructions to create a new user with the desired username and password. Make sure to assign appropriate access roles.
+Go back to the navigation panel and click "Network Access" to configure network access.
+Click the "Add IP Address" or "Allow Access From Anywhere" button to allow access from a specific IP address or from anywhere.
+Save the settings you've configured.
+Installing Required Modules:
+
+Make sure you have Python and pip installed on your computer.
+Open a terminal or command prompt (e.g., using VS Code for convenience).
+Run the following commands to install the required modules:
+Copy code
+pip install discord
+pip install pymongo
+pip install flask
+pip install pywinauto
+pip install keyboard
+pip install asyncio
+Running the Code:
+
+Ensure that all code files (psell.lua, server.py, open.py, and config.json) are in the same directory.
+Open a terminal, preferably using VS Code for convenience.
+Navigate to the directory where the code files are located using the cd command (e.g., cd path/to/directory).
+Configure the config.json file.
+Run server.py with the command python server.py to start the Flask server.
+Open a new terminal or command prompt.
+Navigate to the same directory where the code files are located.
+Run open.py with the command python open.py to open the application and log in.
+Once Olimpus.exe is open and the login is successful, you can add a bot first.
+After adding the bot, go to the script section and open the script named psell.lua.
+If the script is open, click execute.
+If there are no error messages in the console, then the script has been successfully executed.

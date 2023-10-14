@@ -1,0 +1,22 @@
+{
+  "lucifer": {
+    "username": "Victospam",
+    "password": "kl@123456",
+    "license": "LUCIbQBOIqyLrPYT"
+  },
+  "mongodb_url": "mongodb://atlas-sql-6529a8e81950523e8cf704ec-kxe7d.a.query.mongodb.net/GuestAccount?ssl=true&authSource=admin",
+  "dbname": "GuestAccount",
+  "collection_name": "GuestAccount",
+  "allowed_discord_ids": ["power0068"],
+  "token": "MTE1NDAyNjM2MDQzMjUxMzA0NA.G1lozd.ZCiuJTkqufyH3s2UkceSW7bYKSb4hLzVbLdQ0w",
+  "commands": {
+    "set": ".set",
+    "cleardata": ".cleardata",
+    "info": ".info",
+    "buy": ".buy",
+    "addball": ".addball"
+  },
+  "pack_prices": {
+    "cid": 5
+  }
+}
